@@ -9,4 +9,6 @@
     <color name="appBackground">#FAFAFA</color>
     <color name="navBarBackground">#FAFAFA</color>
     <color name="drawerArrowColor">#000000</color>
+
+    <color name="btnInfo">#3D84FF</color>
 </resources>

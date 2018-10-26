@@ -11,6 +11,7 @@ import android.widget.Toast;
 import java.util.Objects;
 
 import butterknife.BindView;
+import io.github.inflationx.viewpump.ViewPumpContextWrapper;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -33,6 +34,11 @@ public class MainActivity extends AppCompatActivity {
         // This override is just to avoid finishing the activity when pressing the back button in the navbar
         // Instead, we fire the same action as if we press the back arrow button in the action bar
         onBackArrowClicked();
+    }
+
+    @Override
+    protected void attachBaseContext(Context newBase) {
+        super.attachBaseContext(ViewPumpContextWrapper.wrap(newBase));
     }
 
     // Name: setupUI
