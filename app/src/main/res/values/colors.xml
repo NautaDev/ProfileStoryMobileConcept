@@ -11,4 +11,5 @@
     <color name="drawerArrowColor">#000000</color>
 
     <color name="btnInfo">#3D84FF</color>
+    <color name="nameText">#000000</color>
 </resources>
