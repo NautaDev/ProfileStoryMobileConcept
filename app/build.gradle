@@ -7,7 +7,7 @@ android {
         minSdkVersion 26
         targetSdkVersion 28
         versionCode 1
-        versionName "1.0"
+        versionName "img1.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
     buildTypes {
@@ -31,4 +31,11 @@ dependencies {
     implementation 'com.github.medyo:fancybuttons:1.9.0'
     implementation 'io.github.inflationx:calligraphy3:3.0.0'
     implementation 'io.github.inflationx:viewpump:1.0.0'
+    // TODO: Replace circleimageview components with the equivalent components of roundedimageview
+    // (since roundedimageview supports not just rounded rectangles but ovals and circles
+    // and circleimageview just supports circles)
+    implementation 'com.makeramen:roundedimageview:2.3.0'
+    implementation 'com.android.support:recyclerview-v7:28.0.0'
+    // TODO: Replace LikeButton with another solution, it doesn't work well on RecyclerView
+    implementation 'com.github.jd-alexander:LikeButton:0.2.3'
 }

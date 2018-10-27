@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <profilestorymobileconcept.ondade.com.profilestorymobileconcept.components.SquareRelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+            <com.makeramen.roundedimageview.RoundedImageView
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/imageView1"
+                android:src="@mipmap/a"
+                android:scaleType="fitCenter"
+                app:riv_corner_radius="20dip"
+                app:riv_border_width="0dip"
+                app:riv_border_color="#333333"
+                app:riv_mutate_background="true"
+                app:riv_oval="false"
+                android:layout_height="200dp"
+                android:layout_width="200dp"
+                android:background="@color/btnInfo"
+                android:layout_gravity="center"/>
+
+    </profilestorymobileconcept.ondade.com.profilestorymobileconcept.components.SquareRelativeLayout>
+
+</LinearLayout>
